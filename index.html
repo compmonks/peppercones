@@ -18,7 +18,6 @@
 			{
 				"imports": {
 					"three": "https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.min.js",
-					"gui": "https://cdn.jsdelivr.net/npm/dat.gui@0.7.9/build/dat.gui.min.js",
 					"three/addons/": "./utils/"
 				}
 			}
@@ -28,7 +27,7 @@
 
 			import * as THREE from 'three';
 			import { PeppersGhostEffect } from 'three/addons/PeppersGhostEffect.js';
-			import * as DAT from 'gui';
+			import { GUI } from 'three/addons/lil-gui.module.min.js';
 			
 			let container;
 
