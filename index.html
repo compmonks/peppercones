@@ -16,20 +16,17 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "./docs/three.module.js",
-					"three/addons/": "./docs/"
+					"three": "./three.module.js",
+					"three/addons/": "./"
 				}
 			}
 		</script>
 
 		<script type="module">
 
-			//import * as THREE from 'three';
-			import * as THREE from 'https://github.com/compmonks/peppercones/blob/main/docs/three.module.js';
-
-			//import { PeppersGhostEffect } from 'three/addons/PeppersGhostEffect.js';
-			import { PeppersGhostEffect } from 'https://github.com/compmonks/peppercones/blob/main/docs/PeppersGhostEffect.js';
-
+			import * as THREE from 'three';
+			import { PeppersGhostEffect } from 'three/addons/PeppersGhostEffect.js';
+			
 			let container;
 
 			let camera, scene, renderer, effect;
