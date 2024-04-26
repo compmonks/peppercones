@@ -28,7 +28,7 @@
 
 			import * as THREE from 'three';
 			import { PeppersGhostEffect } from 'three/addons/PeppersGhostEffect.js';
-			import { GUI } from 'gui';
+			import * as dat from 'gui';
 			
 			let container;
 
@@ -51,7 +51,7 @@
 				scene.add( group );
 				
 				// GUI
-				const gui = new GUI();
+				const gui = new dat.GUI();
 
 				// Cube
 
